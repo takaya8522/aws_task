@@ -126,6 +126,8 @@ GEM
     nio4r (2.5.8)
     nokogiri (1.12.2-arm64-darwin)
       racc (~> 1.4)
+    nokogiri (1.12.2-x86_64-linux)
+      racc (~> 1.4)
     pg (1.2.3)
     public_suffix (4.0.6)
     puma (4.3.8)
@@ -232,6 +234,7 @@ GEM
 PLATFORMS
   arm64-darwin-20
   arm64-darwin-21
+  x86_64-linux
 
 DEPENDENCIES
   bootsnap (>= 1.4.2)
